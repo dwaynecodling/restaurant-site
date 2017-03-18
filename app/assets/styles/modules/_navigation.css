@@ -1,0 +1,44 @@
+
+
+nav img {
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li  {
+  max-width: 100%;
+  border: 1px solid #333;
+  border-bottom: none;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul li:nth-child(5) {
+  border-bottom: 1px solid #333;
+}
+
+@media (min-width: 600px) {
+
+  nav img {
+    position: absolute;
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  nav ul li {
+  border: none;
+  }
+}

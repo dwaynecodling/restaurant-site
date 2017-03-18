@@ -1,0 +1,48 @@
+.specialities {
+  position: relative;
+}
+.specialities header {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+}
+
+.specialities-bg-image {
+position: relative;
+max-width: 100vw;
+height: 100vh;
+margin: 0;
+overflow: hidden;
+}
+
+.specialities-bg-image img {
+  position: absolute;
+  top: 0;
+}
+
+
+.specialities h1 {
+  text-align: center;
+  color: #fff;
+
+}
+
+.specialities-grid-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.specialities-grid {
+  width: 25%;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  font-size: 75%;
+  padding: 10px;
+  background-color: #333;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}

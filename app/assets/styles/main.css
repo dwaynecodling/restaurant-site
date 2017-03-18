@@ -1,0 +1,5 @@
+@import "base/_global.css";
+@import "modules/_navigation.css";
+@import "modules/_landing.css";
+@import "modules/_reservation-about.css";
+@import "modules/_specialities.css";
