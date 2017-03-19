@@ -11,7 +11,7 @@
   &__menu-box {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 72%;
     margin-left: auto;
     margin-right: auto;
     &--header {
@@ -21,21 +21,27 @@
     &__sub--header{
       width: 100%;
       text-align: center;
+      & h2 {
+        font-family: 'Great Vibes', cursive;
+        font-weight: 300;
+        font-size: 2em;
+      }
     }
   }
   &--row-one {
     width: 100%;
     display: flex;
     align-items: flex-end;
+    justify-content: space-around;
     &__option-one {
-      width: 40%;
+      width: 30%;
       &__price {
         width: 10%;
         padding: 10px;
       }
     }
     &__option-two {
-      width: 40%;
+      width: 30%;
       &__price {
         width: 10%;
         padding: 10px;
@@ -46,15 +52,16 @@
     width: 100%;
     display: flex;
     align-items: flex-end;
+    justify-content: space-around;
     &__option-one {
-      width: 40%;
+      width: 30%;
       &__price {
         width: 10%;
         padding: 10px;
       }
     }
     &__option-two {
-      width: 40%;
+      width: 30%;
       &__price {
         width: 10%;
         padding: 10px;
@@ -65,15 +72,16 @@
     width: 100%;
     display: flex;
     align-items: flex-end;
+    justify-content: space-around;
     &__option-one {
-      width: 40%;
+      width: 30%;
       &__price {
         width: 10%;
         padding: 10px;
       }
     }
     &__option-two {
-      width: 40%;
+      width: 30%;
       &__price {
         width: 10%;
         padding: 10px;
@@ -81,18 +89,20 @@
     }
   }
   &--row-four {
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: flex-end;
+    justify-content: space-around;
+
     &__option-one {
-      width: 40%;
+      width: 60%;
       &__price {
-        width: 10%;
+        width: 20%;
         padding: 10px;
       }
     }
     &__option-two {
-      width: 40%;
+      width: 30%;
       &__price {
         width: 10%;
         padding: 10px;

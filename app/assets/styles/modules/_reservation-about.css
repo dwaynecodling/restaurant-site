@@ -5,6 +5,13 @@
   background-color: #fff;
   position: relative;
 
+  & h1 {
+
+      font-family: 'Great Vibes', cursive;
+      font-weight: 300;
+      font-size: 2em;
+  }
+
 }
 .reservation--about__inner {
   position: relative;
