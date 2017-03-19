@@ -1,0 +1,14 @@
+/* Do Not edit the modules/_sprite.js directly file its done automatically edit the gulp/templates/sprites */
+
+
+        .icon {
+          background-image: url('../../assets/images/sprites/sprite-375b5df1.svg');
+        }
+        .no-svg .icon {
+          background-image: url('../../assets/images/sprites/sprite-375b5df1.png');
+        }
+  .icon--logo {
+    width:  276px;
+    height: 216px;
+    background-position: 0 0;
+  }

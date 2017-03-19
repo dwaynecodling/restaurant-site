@@ -1,0 +1,102 @@
+.menu {
+  position: relative;
+  line-height: 1.5em;
+  &--landing-image {
+    position: relative;
+    max-width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  &__menu-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    &--header {
+      width: 100%;
+      text-align: center;
+    }
+    &__sub--header{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  &--row-one {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    &__option-one {
+      width: 40%;
+      &__price {
+        width: 10%;
+        padding: 10px;
+      }
+    }
+    &__option-two {
+      width: 40%;
+      &__price {
+        width: 10%;
+        padding: 10px;
+      }
+    }
+  }
+  &--row-two {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    &__option-one {
+      width: 40%;
+      &__price {
+        width: 10%;
+        padding: 10px;
+      }
+    }
+    &__option-two {
+      width: 40%;
+      &__price {
+        width: 10%;
+        padding: 10px;
+      }
+    }
+  }
+  &--row-three {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    &__option-one {
+      width: 40%;
+      &__price {
+        width: 10%;
+        padding: 10px;
+      }
+    }
+    &__option-two {
+      width: 40%;
+      &__price {
+        width: 10%;
+        padding: 10px;
+      }
+    }
+  }
+  &--row-four {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    &__option-one {
+      width: 40%;
+      &__price {
+        width: 10%;
+        padding: 10px;
+      }
+    }
+    &__option-two {
+      width: 40%;
+      &__price {
+        width: 10%;
+        padding: 10px;
+      }
+    }
+  }
+}
